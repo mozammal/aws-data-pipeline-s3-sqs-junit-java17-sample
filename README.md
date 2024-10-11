@@ -3,7 +3,7 @@
 This project contains source code and supporting files for an aws lambda application
 that you can deploy with Terraform. This time we'll use aws command line to upload a list of
 weather events in a JSON file to S3. The producer then consume the s3-events and publish the records
-to a SQS queue. "A Lambda consumer consumes the messages from the SQS queue and then logs them to AWS CloudWatch Logs
+to a SQS queue. A Lambda consumer consumes the messages from the SQS queue and then logs them to AWS CloudWatch Logs
 
 It includes the following files and folders.
 
